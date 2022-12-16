@@ -5,18 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Your Challenge</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Create a button that toggles between the two photos found in <code>/src/static/images</code> when clicked.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
